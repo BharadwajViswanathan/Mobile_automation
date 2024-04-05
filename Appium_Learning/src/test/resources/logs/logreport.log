@@ -1,0 +1,425 @@
+2023-11-20 17:03:29 INFO  Extentlogger:18 - On Start program
+2023-11-20 17:03:49 INFO  Extentlogger:31 - verifyurlTC001->This method execution is started
+2023-11-20 17:03:49 INFO  Extentlogger:63 - The Actual Result is https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2023-11-20 17:03:51 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:03:51 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:03:51 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:03:53 INFO  Extentlogger:63 - Dashboard is Display? true
+2023-11-20 17:03:53 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:03:55 INFO  Extentlogger:36 - Logout is Clicked
+2023-11-20 17:03:55 INFO  Extentlogger:36 - Log out from the webpage successfully
+2023-11-20 17:03:55 INFO  Extentlogger:72 - verifyurlTC001
+2023-11-20 17:04:32 INFO  Extentlogger:31 - VerifytheerrormessageonloginpageTC002->This method execution is started
+2023-11-20 17:04:34 INFO  Extentlogger:36 - Testing is entered in Username successfully
+2023-11-20 17:04:34 INFO  Extentlogger:36 - Test@123 is entered in Password successfully
+2023-11-20 17:04:34 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:04:36 INFO  Extentlogger:63 - Invalid credentials is Display? true
+2023-11-20 17:04:36 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:04:36 INFO  Extentlogger:72 - VerifytheerrormessageonloginpageTC002
+2023-11-20 17:04:41 INFO  Extentlogger:31 - deleteemployee->This method execution is started
+2023-11-20 17:04:41 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:04:41 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:04:41 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:04:44 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:04:45 INFO  Extentlogger:36 - Delete Selected is Clicked
+2023-11-20 17:04:46 INFO  Extentlogger:36 - Yes, Delete is Clicked
+2023-11-20 17:04:46 INFO  Extentlogger:63 - Success
+Successfully Deleted is Display? true
+2023-11-20 17:04:46 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:04:46 INFO  Extentlogger:72 - deleteemployee
+2023-11-20 17:04:53 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:04:55 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:04:55 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:04:55 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:04:58 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:04:59 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:05:00 INFO  Extentlogger:36 - Bharadwaj is entered in First Name successfully
+2023-11-20 17:05:00 INFO  Extentlogger:36 - V is entered in Last Name successfully
+2023-11-20 17:05:00 INFO  Extentlogger:36 - 11326 is entered in successfully
+2023-11-20 17:05:01 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:05:01 INFO  Extentlogger:63 - Success
+Successfully Saved is Display? true
+2023-11-20 17:05:01 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:05:01 INFO  Extentlogger:72 - createemployee
+2023-11-20 17:05:15 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:05:17 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:05:17 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:05:17 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:05:20 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:05:21 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:05:21 INFO  Extentlogger:36 - Sharan is entered in First Name successfully
+2023-11-20 17:05:22 INFO  Extentlogger:36 - Kumar is entered in Last Name successfully
+2023-11-20 17:05:22 INFO  Extentlogger:36 - 11325 is entered in successfully
+2023-11-20 17:05:22 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:05:23 INFO  Extentlogger:63 - Success
+Successfully Saved is Display? true
+2023-11-20 17:05:23 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:05:23 INFO  Extentlogger:72 - createemployee
+2023-11-20 17:05:38 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:05:39 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:05:39 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:05:39 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:05:42 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:05:43 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:05:44 INFO  Extentlogger:36 - Shanmugam is entered in First Name successfully
+2023-11-20 17:05:44 INFO  Extentlogger:36 - S is entered in Last Name successfully
+2023-11-20 17:05:45 INFO  Extentlogger:36 - 12534 is entered in successfully
+2023-11-20 17:05:45 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:05:45 INFO  Extentlogger:63 - Success
+Successfully Saved is Display? true
+2023-11-20 17:05:45 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:05:45 INFO  Extentlogger:72 - createemployee
+2023-11-20 17:05:52 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:05:53 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:05:53 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:05:53 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:05:56 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:05:58 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:05:58 INFO  Extentlogger:36 - Virat is entered in First Name successfully
+2023-11-20 17:05:58 INFO  Extentlogger:36 - Kohli  is entered in Last Name successfully
+2023-11-20 17:05:59 INFO  Extentlogger:36 - 5427 is entered in successfully
+2023-11-20 17:05:59 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:06:00 INFO  Extentlogger:63 - Success
+Successfully Saved is Display? true
+2023-11-20 17:06:00 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:06:00 INFO  Extentlogger:72 - createemployee
+2023-11-20 17:06:06 INFO  Extentlogger:31 - Employeeinfosearch->This method execution is started
+2023-11-20 17:06:06 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:06:07 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:06:07 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:06:10 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:06:13 INFO  Extentlogger:36 - Bharadwaj V is entered in Type for hints... successfully
+2023-11-20 17:06:13 INFO  Extentlogger:36 - Employeename was entered successfully->Bharadwaj V
+2023-11-20 17:06:14 INFO  Extentlogger:36 - 11326 is entered in successfully
+2023-11-20 17:06:14 INFO  Extentlogger:36 - Search is Clicked
+2023-11-20 17:06:14 INFO  Extentlogger:63 - 11326
+Bharadwaj
+V is Display? true
+2023-11-20 17:06:14 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:06:14 INFO  Extentlogger:72 - Employeeinfosearch
+2023-11-20 17:06:23 INFO  Extentlogger:31 - Employeeinfosearch->This method execution is started
+2023-11-20 17:06:24 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:06:24 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:06:26 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:06:27 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:06:31 INFO  Extentlogger:36 - Sharan Kumar is entered in Type for hints... successfully
+2023-11-20 17:06:31 INFO  Extentlogger:36 - Employeename was entered successfully->Sharan Kumar
+2023-11-20 17:06:31 INFO  Extentlogger:36 - 11325 is entered in successfully
+2023-11-20 17:06:31 INFO  Extentlogger:36 - Search is Clicked
+2023-11-20 17:06:32 INFO  Extentlogger:63 - 11325
+Sharan
+Kumar is Display? true
+2023-11-20 17:06:32 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:06:32 INFO  Extentlogger:72 - Employeeinfosearch
+2023-11-20 17:06:37 INFO  Extentlogger:31 - Employeeinfosearch->This method execution is started
+2023-11-20 17:06:38 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:06:38 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:06:38 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:06:41 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:06:45 INFO  Extentlogger:36 - Shanmugam S is entered in Type for hints... successfully
+2023-11-20 17:06:45 INFO  Extentlogger:36 - Employeename was entered successfully->Shanmugam S
+2023-11-20 17:06:45 INFO  Extentlogger:36 - 12534 is entered in successfully
+2023-11-20 17:06:45 INFO  Extentlogger:36 - Search is Clicked
+2023-11-20 17:06:45 INFO  Extentlogger:63 - 12534
+Shanmugam
+S is Display? true
+2023-11-20 17:06:45 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:06:45 INFO  Extentlogger:72 - Employeeinfosearch
+2023-11-20 17:06:56 INFO  Extentlogger:31 - Employeeinfosearch->This method execution is started
+2023-11-20 17:06:58 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:06:58 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:06:59 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:07:02 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:07:06 INFO  Extentlogger:36 - Virat Kohli  is entered in Type for hints... successfully
+2023-11-20 17:07:06 INFO  Extentlogger:36 - Employeename was entered successfully->Virat Kohli 
+2023-11-20 17:07:06 INFO  Extentlogger:36 - 5427 is entered in successfully
+2023-11-20 17:07:06 INFO  Extentlogger:36 - Search is Clicked
+2023-11-20 17:07:06 INFO  Extentlogger:63 - 5427
+Virat
+Kohli is Display? true
+2023-11-20 17:07:06 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:07:06 INFO  Extentlogger:72 - Employeeinfosearch
+2023-11-20 17:07:16 INFO  Extentlogger:31 - getemployeedata->This method execution is started
+2023-11-20 17:07:17 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:07:17 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:07:17 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:07:20 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:07:52 INFO  Extentlogger:36 - Data written successfully to the Excel file.
+2023-11-20 17:07:52 INFO  Extentlogger:63 - Extent excel file is stored in this loction.\src\test\resources\config\Mon-Nov-20-17-07-52-IST-2023.xlsx
+2023-11-20 17:07:52 INFO  Extentlogger:72 - getemployeedata
+2023-11-20 17:08:02 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-11-20 17:08:04 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:08:04 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:08:04 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:08:07 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:09:08 INFO  Extentlogger:100 - deleteadmin
+2023-11-20 17:09:08 INFO  Extentlogger:55 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(.,'Delete')]' (tried for 30 second(s) with 500 milliseconds interval)
+2023-11-20 17:09:23 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-11-20 17:09:24 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:09:25 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:09:26 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:09:27 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:10:28 INFO  Extentlogger:100 - deleteadmin
+2023-11-20 17:10:28 INFO  Extentlogger:55 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(.,'Delete')]' (tried for 30 second(s) with 500 milliseconds interval)
+2023-11-20 17:10:40 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-11-20 17:10:42 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:10:42 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:10:44 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:10:45 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:11:46 INFO  Extentlogger:100 - deleteadmin
+2023-11-20 17:11:46 INFO  Extentlogger:55 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(.,'Delete')]' (tried for 30 second(s) with 500 milliseconds interval)
+2023-11-20 17:11:49 INFO  Extentlogger:31 - deleteadmin->This method execution is started
+2023-11-20 17:11:58 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:11:58 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:12:00 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:12:02 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:12:03 INFO  Extentlogger:36 - Delete Selected is Clicked
+2023-11-20 17:12:03 INFO  Extentlogger:36 - Yes, Delete is Clicked
+2023-11-20 17:12:03 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:12:03 INFO  Extentlogger:72 - deleteadmin
+2023-11-20 17:12:16 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-11-20 17:12:17 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:12:17 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:12:17 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:12:21 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:12:22 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:12:22 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:12:22 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:12:25 INFO  Extentlogger:36 - Bharadwaj is entered in Type for hints... successfully
+2023-11-20 17:12:26 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:12:26 INFO  Extentlogger:36 - Enabled is Clicked
+2023-11-20 17:12:26 INFO  Extentlogger:36 - Salma is entered in successfully
+2023-11-20 17:12:26 INFO  Extentlogger:36 - Test@123 is entered in successfully
+2023-11-20 17:12:26 INFO  Extentlogger:36 - Test@123 is entered in successfully
+2023-11-20 17:12:26 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:12:36 INFO  Extentlogger:72 - AddAdminuser
+2023-11-20 17:12:52 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-11-20 17:12:53 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:12:53 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:12:54 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:12:56 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:12:57 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:12:58 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:12:58 INFO  Extentlogger:36 - ESS is Clicked
+2023-11-20 17:13:01 INFO  Extentlogger:36 - Sharan is entered in Type for hints... successfully
+2023-11-20 17:13:01 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:13:02 INFO  Extentlogger:36 - Disabled is Clicked
+2023-11-20 17:13:02 INFO  Extentlogger:36 - PremKumar is entered in successfully
+2023-11-20 17:13:02 INFO  Extentlogger:36 - Test@123 is entered in successfully
+2023-11-20 17:13:02 INFO  Extentlogger:36 - Test@123 is entered in successfully
+2023-11-20 17:13:02 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:13:12 INFO  Extentlogger:72 - AddAdminuser
+2023-11-20 17:13:36 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-11-20 17:13:37 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:13:38 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:13:38 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:13:41 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:13:42 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:13:42 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:13:42 INFO  Extentlogger:36 - ESS is Clicked
+2023-11-20 17:13:46 INFO  Extentlogger:36 - Shanmugam is entered in Type for hints... successfully
+2023-11-20 17:13:46 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:13:46 INFO  Extentlogger:36 - Enabled is Clicked
+2023-11-20 17:13:46 INFO  Extentlogger:36 - Rathika is entered in successfully
+2023-11-20 17:13:46 INFO  Extentlogger:36 - Test@465 is entered in successfully
+2023-11-20 17:13:46 INFO  Extentlogger:36 - Test@123 is entered in successfully
+2023-11-20 17:13:46 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:13:46 INFO  Extentlogger:63 - Passwords do not match is Display? true
+2023-11-20 17:13:46 INFO  Extentlogger:63 - Passwords do not match is Display? true
+2023-11-20 17:13:46 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:13:46 INFO  Extentlogger:72 - AddAdminuser
+2023-11-20 17:13:58 INFO  Extentlogger:31 - AddAdminuser->This method execution is started
+2023-11-20 17:13:59 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:13:59 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:13:59 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:14:02 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:14:03 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:14:04 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:14:04 INFO  Extentlogger:36 - Admin is Clicked
+2023-11-20 17:14:07 INFO  Extentlogger:36 - Virat is entered in Type for hints... successfully
+2023-11-20 17:14:08 INFO  Extentlogger:36 - -- Select -- is Clicked
+2023-11-20 17:14:08 INFO  Extentlogger:36 - Disabled is Clicked
+2023-11-20 17:14:08 INFO  Extentlogger:36 - Ranjith is entered in successfully
+2023-11-20 17:14:08 INFO  Extentlogger:36 - DoneR15 is entered in successfully
+2023-11-20 17:14:08 INFO  Extentlogger:36 - DoneR15 is entered in successfully
+2023-11-20 17:14:08 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:14:18 INFO  Extentlogger:72 - AddAdminuser
+2023-11-20 17:14:35 INFO  Extentlogger:31 - verifyurlTC001->This method execution is started
+2023-11-20 17:14:35 INFO  Extentlogger:63 - The Actual Result is https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2023-11-20 17:14:36 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:14:36 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:14:38 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:14:38 INFO  Extentlogger:63 - Dashboard is Display? true
+2023-11-20 17:14:38 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:14:40 INFO  Extentlogger:36 - Logout is Clicked
+2023-11-20 17:14:40 INFO  Extentlogger:36 - Log out from the webpage successfully
+2023-11-20 17:14:40 INFO  Extentlogger:72 - verifyurlTC001
+2023-11-20 17:14:51 INFO  Extentlogger:31 - VerifytheerrormessageonloginpageTC002->This method execution is started
+2023-11-20 17:14:52 INFO  Extentlogger:36 - Testing is entered in Username successfully
+2023-11-20 17:14:52 INFO  Extentlogger:36 - Test@123 is entered in Password successfully
+2023-11-20 17:14:54 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:14:54 INFO  Extentlogger:63 - Invalid credentials is Display? true
+2023-11-20 17:14:54 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:14:54 INFO  Extentlogger:72 - VerifytheerrormessageonloginpageTC002
+2023-11-20 17:15:13 INFO  Extentlogger:31 - deleteemployee->This method execution is started
+2023-11-20 17:15:16 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:15:16 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:15:18 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:15:19 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:15:21 INFO  Extentlogger:36 - Delete Selected is Clicked
+2023-11-20 17:15:21 INFO  Extentlogger:36 - Yes, Delete is Clicked
+2023-11-20 17:15:22 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:15:22 INFO  Extentlogger:72 - deleteemployee
+2023-11-20 17:15:29 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:15:30 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:15:30 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:15:32 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:15:34 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:15:37 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:15:37 INFO  Extentlogger:36 - Bharadwaj is entered in First Name successfully
+2023-11-20 17:15:37 INFO  Extentlogger:36 - V is entered in Last Name successfully
+2023-11-20 17:15:37 INFO  Extentlogger:36 - 11326 is entered in successfully
+2023-11-20 17:15:37 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:15:38 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:15:38 INFO  Extentlogger:72 - createemployee
+2023-11-20 17:15:56 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:15:57 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:15:57 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:15:59 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:16:01 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:16:03 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:16:03 INFO  Extentlogger:36 - Sharan is entered in First Name successfully
+2023-11-20 17:16:03 INFO  Extentlogger:36 - Kumar is entered in Last Name successfully
+2023-11-20 17:16:03 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:16:03 INFO  Extentlogger:55 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,349) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e2fd200b-ae9e-4669-b590-878ad086e23f, clickElement {id=49c8c74d-39fa-48f7-8e0d-ff3a8f32d8f4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:18367, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5132, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18367/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (e2fd200b-ae9e-4669-b590-878ad086e23f)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: e2fd200b-ae9e-4669-b590-878ad086e23f
+2023-11-20 17:16:21 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:16:22 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:16:22 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:16:23 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:16:25 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:16:27 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:16:27 INFO  Extentlogger:36 - Sharan is entered in First Name successfully
+2023-11-20 17:16:28 INFO  Extentlogger:36 - Kumar is entered in Last Name successfully
+2023-11-20 17:16:28 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:16:28 INFO  Extentlogger:55 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,349) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [437bf879-a8c9-41e4-a65e-2d7304e1893c, clickElement {id=d2d50c9e-3981-47af-a382-9adb4f99cef4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:41190, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11476, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41190/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (437bf879-a8c9-41e4-a65e-2d7304e1893c)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: 437bf879-a8c9-41e4-a65e-2d7304e1893c
+2023-11-20 17:16:38 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:16:39 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:16:39 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:16:43 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:16:44 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:16:46 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:16:46 INFO  Extentlogger:36 - Sharan is entered in First Name successfully
+2023-11-20 17:16:46 INFO  Extentlogger:36 - Kumar is entered in Last Name successfully
+2023-11-20 17:16:46 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:16:46 INFO  Extentlogger:55 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,353) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [154934cc-e8e6-4418-a2da-1fabeab6540a, clickElement {id=dbebfd08-e3ef-4386-a684-4d18c4b1b491}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:48897, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14396, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:48897/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (154934cc-e8e6-4418-a2da-1fabeab6540a)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: 154934cc-e8e6-4418-a2da-1fabeab6540a
+2023-11-20 17:17:04 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:17:07 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:17:07 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:17:12 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:17:13 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:17:15 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:17:15 INFO  Extentlogger:36 - Sharan is entered in First Name successfully
+2023-11-20 17:17:15 INFO  Extentlogger:36 - Kumar is entered in Last Name successfully
+2023-11-20 17:17:15 ERROR Extentlogger:47 - createemployee
+2023-11-20 17:17:15 ERROR Extentlogger:47 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,353) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9a9ba28e-081a-40a4-87cd-251fe8e9cf79, clickElement {id=eb4dd612-f529-41b9-9a00-e4c873d7e017}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:7537, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18020, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:7537/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (9a9ba28e-081a-40a4-87cd-251fe8e9cf79)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: 9a9ba28e-081a-40a4-87cd-251fe8e9cf79
+2023-11-20 17:17:34 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:17:35 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:17:35 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:17:37 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:17:39 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:17:40 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:17:41 INFO  Extentlogger:36 - Shanmugam is entered in First Name successfully
+2023-11-20 17:17:41 INFO  Extentlogger:36 - S is entered in Last Name successfully
+2023-11-20 17:17:41 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:17:41 INFO  Extentlogger:55 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,349) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [09e4156c-8f44-4d99-8430-4b9d6f147dde, clickElement {id=ea3fc8fc-a49d-42b9-912a-44e988e91b68}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:17236, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4924, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:17236/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (09e4156c-8f44-4d99-8430-4b9d6f147dde)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: 09e4156c-8f44-4d99-8430-4b9d6f147dde
+2023-11-20 17:18:05 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:18:06 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:18:06 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:18:12 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:18:14 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:18:15 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:18:16 INFO  Extentlogger:36 - Shanmugam is entered in First Name successfully
+2023-11-20 17:18:16 INFO  Extentlogger:36 - S is entered in Last Name successfully
+2023-11-20 17:18:16 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:18:16 INFO  Extentlogger:55 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,353) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9521c00c-4150-412c-acf7-d87439f7ab06, clickElement {id=482cf386-660b-41f6-a53d-2f6938eaec23}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:24678, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16032, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:24678/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (9521c00c-4150-412c-acf7-d87439f7ab06)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: 9521c00c-4150-412c-acf7-d87439f7ab06
+2023-11-20 17:18:42 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:18:43 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:18:43 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:18:45 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:18:47 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:18:51 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:18:51 INFO  Extentlogger:36 - Shanmugam is entered in First Name successfully
+2023-11-20 17:18:51 INFO  Extentlogger:36 - S is entered in Last Name successfully
+2023-11-20 17:18:52 INFO  Extentlogger:36 - 12534 is entered in successfully
+2023-11-20 17:18:52 INFO  Extentlogger:36 - Save is Clicked
+2023-11-20 17:18:52 INFO  Extentlogger:63 - Is that element displayed?->true
+2023-11-20 17:18:52 INFO  Extentlogger:72 - createemployee
+2023-11-20 17:19:01 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:19:02 INFO  Extentlogger:36 - Admin is entered in Username successfully
+2023-11-20 17:19:02 INFO  Extentlogger:36 - admin123 is entered in Password successfully
+2023-11-20 17:19:07 INFO  Extentlogger:36 - Login is Clicked
+2023-11-20 17:19:08 INFO  Extentlogger:36 - PIM is Clicked
+2023-11-20 17:19:10 INFO  Extentlogger:36 - Add is Clicked
+2023-11-20 17:19:10 INFO  Extentlogger:36 - Virat is entered in First Name successfully
+2023-11-20 17:19:10 INFO  Extentlogger:36 - Kohli  is entered in Last Name successfully
+2023-11-20 17:19:10 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:19:11 INFO  Extentlogger:55 - org.openqa.selenium.ElementClickInterceptedException: Element <input class="oxd-input oxd-input--active"> is not clickable at point (722,353) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a38f5ca9-e6a1-4f0a-976c-a15f8eb8e81a, clickElement {id=a04ab16f-46c8-4523-858d-d58795cd0f37}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:24493, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4052, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:24493/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (a38f5ca9-e6a1-4f0a-976c-a15f8eb8e81a)] -> xpath: //label[contains(.,'Employee Id')]//parent::div//following::div/input]
+Session ID: a38f5ca9-e6a1-4f0a-976c-a15f8eb8e81a
+2023-11-20 17:19:19 INFO  Extentlogger:31 - createemployee->This method execution is started
+2023-11-20 17:19:19 INFO  Extentlogger:100 - createemployee
+2023-11-20 17:19:19 ERROR Extentlogger:47 - createemployee
+2023-11-20 17:19:19 ERROR Extentlogger:47 - org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [85075a66-5a26-408e-bae7-e0d573247939, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:42765, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5464, moz:profile: C:\Users\BHARAD~1.VIS\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:42765/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85075a66-5a26-408e-bae7-e0d573247939
