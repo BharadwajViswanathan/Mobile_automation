@@ -7,8 +7,15 @@
 	</listeners>
 <test  name="Run on Mobile" >
 <classes>
- <class name="com.tests.Login"/>
+      <class name="com.tests.Login_into_application"/>
+       <class name="com.tests.Validate_fitnessandhealthpage"/>
+         <class name="com.tests.validate_add_friends_through_contract"/>
+         <class name="com.tests.validate_add_friends_through_common_interest"/>
+       <class name="com.tests.Post_an_Activity_rings"/>
+      <class name="com.tests.Accept_the_friend_request"/>
+       <class name="com.tests.collectnoisecoinsformdashboard"/>
+      <class name="com.tests.Create_Challenge"/>
+      <class name="com.tests.delete_an_account"/>
 </classes>
 </test>
 </suite>
-		

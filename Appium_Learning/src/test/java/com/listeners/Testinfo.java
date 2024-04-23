@@ -1,5 +1,7 @@
 package com.listeners;
 
+import java.io.IOException;
+
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestListener;
@@ -16,7 +18,13 @@ public class Testinfo extends BaseClass implements ITestListener,ISuiteListener{
 	
 	@Override
 	public void onStart(ISuite suite) {
-		
+	    Runtime runtime = Runtime.getRuntime();
+	    try {
+	        runtime.exec("cmd.exe /c start cmd.exe /k \"appium --log LOG \"");
+	        Thread.sleep(10000);
+	    } catch (IOException | InterruptedException e) {
+	        e.printStackTrace();
+	    }
 		ExtentReport.invokereport();
 //		Extentlogger.log.info("On Start program");
 
@@ -25,6 +33,13 @@ public class Testinfo extends BaseClass implements ITestListener,ISuiteListener{
 	@Override
 	public void onFinish(ISuite suite) {
 		ExtentReport.flushreport();
+		 Runtime runtime = Runtime.getRuntime();
+		    try {
+		        runtime.exec("taskkill /F /IM node.exe");
+		        runtime.exec("taskkill /F /IM cmd.exe");
+		    } catch (IOException e) {
+		        e.printStackTrace();
+		    }
 //		Extentlogger.log.info("On Finish program");
 	}
 

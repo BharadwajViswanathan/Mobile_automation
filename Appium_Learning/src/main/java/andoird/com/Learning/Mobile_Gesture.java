@@ -73,6 +73,7 @@ public class Mobile_Gesture {
 		TouchAction action=new TouchAction(driver);
 		action.tap(PointOption.point(xaxis,yaxis)).perform();
 	}
+	
 	private static void doubleTap(AndroidDriver driver,Point cordinates) {
 		TouchAction touch =new TouchAction(driver);
 		TouchAction perform = touch.press(PointOption.point(cordinates)).release().perform().waitAction().press(PointOption.point(cordinates)).release().perform();

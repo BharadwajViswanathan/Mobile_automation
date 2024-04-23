@@ -2,12 +2,13 @@ package com.tests;
 
 import java.awt.AWTException;
 import java.awt.Robot;
-import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -16,14 +17,18 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
@@ -36,7 +41,9 @@ import com.configure.config;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
+import io.appium.java_client.touch.offset.PointOption;
 
 /**
  * Base Class
@@ -243,13 +250,13 @@ public class BaseClass extends Driver {
 		Robot robot;
 		try {
 			robot = new Robot();
-			robot.keyPress(KeyEvent.VK_CONTROL);
-			robot.keyPress(KeyEvent.VK_A);
+			robot.keyPress(java.awt.event.KeyEvent.VK_CONTROL);
+			robot.keyPress(java.awt.event.KeyEvent.VK_A);
 
-			robot.keyRelease(KeyEvent.VK_CONTROL);
-			robot.keyRelease(KeyEvent.VK_A);
-			robot.keyPress(KeyEvent.VK_CLEAR);
-			robot.keyRelease(KeyEvent.VK_CLEAR);
+			robot.keyRelease(java.awt.event.KeyEvent.VK_CONTROL);
+			robot.keyRelease(java.awt.event.KeyEvent.VK_A);
+			robot.keyPress(java.awt.event.KeyEvent.VK_CLEAR);
+			robot.keyRelease(java.awt.event.KeyEvent.VK_CLEAR);
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
@@ -363,8 +370,8 @@ public class BaseClass extends Driver {
 
 		File DestFile = new File("./src/test/resources/" + config.getcurrenttime() + ".png");
 
-		try {
-			FileUtils.copyFile(SrcFile, DestFile);
+		try {		FileUtils.copyFile(SrcFile, DestFile);
+	
 			Extentlogger.info("Screenshot was stored in" + DestFile.toString());
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -387,8 +394,8 @@ public class BaseClass extends Driver {
 	}
 
 	public static void print(String textinfo) {
-		Extentlogger.info("The Text is :" + textinfo);
-		System.out.println("The Text is :" + textinfo);
+		Extentlogger.info(textinfo);
+		System.out.println(textinfo);
 	}
 
 	public static void switchtoframe(WebElement element) {
@@ -411,7 +418,61 @@ public class BaseClass extends Driver {
 	}
 	public static void longpress(WebElement element) {
 		TouchAction action =new TouchAction(driver);
-		action.longPress(ElementOption.element(element)).perform();
+		action.longPress(ElementOption.element(element)).perform();	
 	}
 
+	public static void selectvalueusingscroll(String value,String elementid) {
+		WebElement element = driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().resourceId(\""+elementid+"\")).scrollIntoView("
+				+ "new UiSelector().text(\""+value+"\"));"));
+		clickelement(element);
+	}
+	public static void scrollandselect(String value) {
+		WebElement element = driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("
+				+ "new UiSelector().text(\""+value+"\"));"));
+		clickelement(element);
+	}
+
+	public static void navigateback() {
+		implictwait(5);
+		driver.navigate().back();
+	}
+
+	public static void seekbarscrollsuingtouchaction(int startX, int endX, int yaxis) {
+		driver.performTouchAction(new TouchAction(driver)
+				.longPress(PointOption.point(startX, yaxis))
+				.moveTo(PointOption.point(endX, yaxis)).perform());
+	}
+
+	public static String randomcharacters() {
+		String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+		StringBuilder randomString = new StringBuilder();
+
+		Random random = new Random();
+		int index = random.nextInt(characters.length());
+		randomString.append(characters.charAt(index));
+		return randomString.toString();
+	}
+
+	public static void seekbarsscroll(int startX, int endX, int yaxis) {
+		final PointerInput FINGER = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+		Point start = new Point(startX, yaxis);
+		Point end = new Point (endX, yaxis);
+		Sequence swipe = new Sequence(FINGER, 1)
+				.addAction(
+						FINGER.createPointerMove(
+								Duration.ofMillis(0),
+								PointerInput.Origin.viewport(),
+								start.getX(),
+								start.getY()))
+				.addAction(FINGER.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+				.addAction(
+						FINGER.createPointerMove(
+								Duration.ofMillis(1000),
+								PointerInput.Origin.viewport(),
+								end.getX(),
+								end.getY()))
+				.addAction(FINGER.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+		driver.perform(Arrays.asList(swipe));
+	}
 }

@@ -23,7 +23,7 @@ public class otp extends config{
  * generate an email for otp using mailosaur api
  * @return dynamic email id 
  */
-	public static String setemailid() {
+	public static String setemailid(String emailname) {
 
 		String apiKey = prop.getProperty("apiKey");
 		serverId = prop.getProperty("serverId");
@@ -33,7 +33,7 @@ public class otp extends config{
 
 		params = new MessageSearchParams();
 		params.withServer(serverId);
-		String emailid="noise@"+serverDomain;
+		String emailid=emailname+"@"+serverDomain;
 //		String dynamicemailid = "user"+currenttimewithoutspace()+"@" + serverDomain;
 		 criteria = new SearchCriteria();
 		

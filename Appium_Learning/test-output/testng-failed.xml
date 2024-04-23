@@ -6,14 +6,27 @@
   </listeners>
   <test thread-count="5" name="Run on Mobile(failed)">
     <classes>
-      <class name="com.tests.Login">
+      <class name="com.tests.Login_into_application">
         <methods>
           <include name="CloseBrowser"/>
-          <include name="BeforeLaunchingbrowser"/>
+          <include name="LaunchBrowser"/>
           <include name="TC_001"/>
+        </methods>
+      </class> <!-- com.tests.Login_into_application -->
+      <class name="com.tests.delete_an_account">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="TC_009"/>
           <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- com.tests.Login -->
+      </class> <!-- com.tests.delete_an_account -->
+      <class name="com.tests.Create_Challenge">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="TC_008"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.tests.Create_Challenge -->
     </classes>
   </test> <!-- Run on Mobile(failed) -->
 </suite> <!-- Failed suite [Suite] -->

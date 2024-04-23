@@ -1,31 +1,15 @@
 package com.pom;
 
-import java.awt.print.Printable;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.configure.otp;
-import com.google.inject.spi.Element;
 import com.tests.BaseClass;
-
-import io.appium.java_client.AppiumBy;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.ElementOption;
-import io.appium.java_client.touch.offset.PointOption;
 
 public class Loginpom extends BaseClass {
 
@@ -83,25 +67,32 @@ public class Loginpom extends BaseClass {
 	@FindBy(xpath = "//android.widget.EditText[@resource-id='android:id/numberpicker_input']")
 	private static List<WebElement> datepicker;
 
-	@FindBy(xpath="(//android.widget.NumberPicker)[1]/android.widget.Button")
+	@FindBy(xpath = "(//android.widget.NumberPicker)[1]/android.widget.Button")
 	private static WebElement previousmonthdatapicker;
 
-	@FindBy(xpath="(//android.widget.NumberPicker)[2]/android.widget.Button")
+	@FindBy(xpath = "(//android.widget.NumberPicker)[2]/android.widget.Button")
 	private static WebElement previousdatedatapicker;
 
-	@FindBy(xpath="(//android.widget.NumberPicker)[3]/android.widget.Button")
+	@FindBy(xpath = "(//android.widget.NumberPicker)[3]/android.widget.Button")
 	private static WebElement previousyeardatapicker;
-	
-	@FindBy(xpath="//android.widget.RadioButton[@resource-id='com.noisefit:id/ivMan']")
-	private static WebElement manradiobutton;
-	
-	@FindBy(xpath="//android.widget.TextView[@resource-id='com.noisefit:id/btnImperial']")
-	private static WebElement imperialtall;
-	
-	@FindBy(id="com.noisefit:id/rvHeight")
-	private static WebElement heightvalues;
 
-	public static void Login(String mobilenumber, String Profilename,String date,String month,String year) {
+	@FindBy(xpath = "//android.widget.RadioButton[@resource-id='com.noisefit:id/ivMan']")
+	private static WebElement manradiobutton;
+
+	@FindBy(xpath = "//android.widget.TextView[@resource-id='com.noisefit:id/btnImperial']")
+	private static WebElement imperialtall;
+
+	private static String heightvalues = "com.noisefit:id/rvHeight";
+
+
+	private static String stepsscroll = "com.noisefit:id/rvSteps";
+	@FindBy(xpath = "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView")
+	private static WebElement scrollcenter;
+
+	@FindBy(xpath = "//android.widget.Toast")
+	private static WebElement Toastmessage;
+
+	public static void Teamsandconditions() {
 		if (!TCandprivacypolicycheckbox.isSelected()) {
 			clickelement(TCandprivacypolicycheckbox);
 			clickelement(Agree_and_continuebutton);
@@ -109,9 +100,11 @@ public class Loginpom extends BaseClass {
 			clickelement(Agree_and_continuebutton);
 		}
 		clickelement(Continuebutton);
+	}
+	public static void Login(String mobilenumber,String emailname) {
 		clickelement(LoginviaEmail);
 
-		String emailid = otp.setemailid();
+		String emailid = otp.setemailid(emailname);
 		sendkeys(Enteremailid, emailid);
 		clickelement(Continuebutton);
 		String emailotp = otp.getemailotp();
@@ -127,9 +120,11 @@ public class Loginpom extends BaseClass {
 			sendkeys(Otpfield, mobileotp);
 			clickelement(Continuebutton);
 		} catch (WebDriverException e) {
-			print("Login Successfull.....");
+			print("Login Successfull....");
 		}
-		profile(Profilename, date, month, year);
+		clickelement(pairlater);
+
+
 	}
 
 	static String getnotificationotp(String mobileotp) {
@@ -143,9 +138,10 @@ public class Loginpom extends BaseClass {
 
 	}
 
-	private static void profile(String Profilename,String date,String month,String year) {
-		// clickelement(onlythistimelocationpermission);
-		clickelement(pairlater);
+	public static void profile(String Profilename, String date, String month, String year, String profileheight,
+			String profileweight, String steps) {
+
+
 		clickelement(profileletsdothisbutton);
 		sendkeys(profilename, Profilename);
 		clickelement(Continuebutton);
@@ -161,58 +157,38 @@ public class Loginpom extends BaseClass {
 		}
 		clickelement(Continuebutton);
 		
-		selectdate(datepicker.get(1),date,"date");
-		selectdate(datepicker.get(0),month,"month");
-		selectdate(datepicker.get(2),year,"year");
-			
+				selectdate(datepicker.get(1), date, previousdatedatapicker);
+				selectdate(datepicker.get(0), month, previousmonthdatapicker);
+				selectdate(datepicker.get(2), year, previousyeardatapicker);
+
 		clickelement(Continuebutton);
 		clickelement(manradiobutton);
 		clickelement(Continuebutton);
-		clickelement(imperialtall);
-		selectheightvalue();
+		implictwait(3);
+
+		selectvalueusingscroll(profileheight, heightvalues);
 		clickelement(Continuebutton);
+		implictwait(3);
+		selectvalueusingscroll(profileweight,heightvalues);
+		clickelement(Continuebutton);
+		implictwait(3);
+		selectvalueusingscroll(steps,stepsscroll);
+		clickelement(Continuebutton);
+
 	}
-	
-	private static void selectdate(WebElement element,String text,String field) {
-		if(field.equalsIgnoreCase("month")){
-			long startTime = System.currentTimeMillis();
-			long endTime = startTime + 480000;
-			while (System.currentTimeMillis() < endTime) {			
-				if(element.getText().equalsIgnoreCase(text)) {	
-					break;
-				} else{
-					clickelement(previousmonthdatapicker);
-				}
+
+	private static void selectdate(WebElement element, String text, WebElement previousbutton) {
+		long startTime = System.currentTimeMillis();
+		long endTime = startTime + 480000;
+		while (System.currentTimeMillis() < endTime) {
+			if (element.getText().equalsIgnoreCase(text)) {
+				break;
+			} else {
+				clickelement(previousbutton);
 			}
-		}else if(field.equalsIgnoreCase("date")) {
-			long startTime = System.currentTimeMillis();
-			long endTime = startTime + 480000;
-			while (System.currentTimeMillis() < endTime) {			
-				if(element.getText().equalsIgnoreCase(text)) {	
-					break;
-				} else{
-					clickelement(previousdatedatapicker);
-				}
-			}
-		}else if(field.equalsIgnoreCase("year")) {
-			long startTime = System.currentTimeMillis();
-			long endTime = startTime + 480000;
-			while (System.currentTimeMillis() < endTime) {			
-				if(element.getText().equalsIgnoreCase(text)) {	
-					break;
-				} else{
-					clickelement(previousyeardatapicker);
-				}
-			}
-		}else {
-			print("Invalid Date was entered");
 		}
 	}
-	
-	private static void selectheightvalue() {
-	  driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()"
-    		        + ".resourceId(\"com.noisefit:id/rvHeight\")).scrollIntoView("
-    		        + "new UiSelector().text(\"46 in\"));"));
-	}
-}
 
+
+
+}

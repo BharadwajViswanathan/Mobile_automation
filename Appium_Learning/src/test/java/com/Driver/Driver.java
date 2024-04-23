@@ -1,12 +1,12 @@
 package com.Driver;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.asserts.SoftAssert;
@@ -28,14 +28,9 @@ public class Driver {
 
 
 	@BeforeSuite
-	public static void BeforeLaunchingbrowser() throws IOException {
+	public static void LaunchBrowser() throws IOException{
 		config.Getdatafrompropertiesfile();
 		Softassert=new SoftAssert();
-	}
-	
-	@BeforeMethod
-	public static void LaunchBrowser() throws MalformedURLException{
-
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,prop.getProperty("Platformname"));
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Uiautomator2");
@@ -53,7 +48,7 @@ public class Driver {
 	 * Close the Browser
 	 * @throws IOException 
 	 */
-	@AfterMethod
+	@AfterSuite
 	public void CloseBrowser() throws IOException {
 		driver.quit();
 		Softassert.assertAll();

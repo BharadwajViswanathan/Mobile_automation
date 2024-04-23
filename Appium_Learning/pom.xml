@@ -34,7 +34,11 @@
 </dependency>
 
 
-
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.4.1</version>
+        </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
 <dependency>
     <groupId>org.apache.maven</groupId>
@@ -103,12 +107,7 @@
     <artifactId>java-client</artifactId>
     <version>8.5.1</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/com.github.genium-framework/Appium-Support -->
-<dependency>
-    <groupId>com.github.genium-framework</groupId>
-    <artifactId>Appium-Support</artifactId>
-    <version>1.0.5</version>
-</dependency>
+
 
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>

@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-05T17:47:04 IST" name="Suite" finished-at="2024-04-05T17:48:51 IST" duration-ms="106753">
+  <suite started-at="2024-04-23T14:50:53 IST" name="Suite" finished-at="2024-04-23T14:58:03 IST" duration-ms="430141">
     <groups>
     </groups>
-    <test started-at="2024-04-05T17:47:04 IST" name="Run on Mobile" finished-at="2024-04-05T17:48:51 IST" duration-ms="106753">
-      <class name="com.tests.Login">
-        <test-method is-config="true" signature="BeforeLaunchingbrowser()[pri:0, instance:com.tests.Login@fa36558]" started-at="2024-04-05T17:47:04 IST" name="BeforeLaunchingbrowser" finished-at="2024-04-05T17:47:04 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeLaunchingbrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.tests.Login@fa36558]" started-at="2024-04-05T17:47:04 IST" name="LaunchBrowser" finished-at="2024-04-05T17:47:16 IST" duration-ms="11952" status="PASS">
+    <test started-at="2024-04-23T14:50:53 IST" name="Run on Mobile" finished-at="2024-04-23T14:58:03 IST" duration-ms="430141">
+      <class name="com.tests.Login_into_application">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.tests.Login_into_application@fa36558]" started-at="2024-04-23T14:50:38 IST" name="LaunchBrowser" finished-at="2024-04-23T14:50:53 IST" duration-ms="15073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="TC_001()[pri:0, instance:com.tests.Login@fa36558]" started-at="2024-04-05T17:47:16 IST" name="TC_001" finished-at="2024-04-05T17:48:49 IST" duration-ms="93406" status="PASS">
+        <test-method signature="TC_001()[pri:0, instance:com.tests.Login_into_application@fa36558]" started-at="2024-04-23T14:50:53 IST" name="TC_001" description="Login into application" finished-at="2024-04-23T14:54:29 IST" duration-ms="215669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@fa36558]" started-at="2024-04-05T17:48:50 IST" name="CloseBrowser" finished-at="2024-04-05T17:48:51 IST" duration-ms="479" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login_into_application@fa36558]" started-at="2024-04-23T14:58:03 IST" name="CloseBrowser" finished-at="2024-04-23T14:58:04 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.tests.Login -->
+      </class> <!-- com.tests.Login_into_application -->
+      <class name="com.tests.Accept_the_friend_request">
+        <test-method signature="TC_006()[pri:0, instance:com.tests.Accept_the_friend_request@60015ef5]" started-at="2024-04-23T14:56:20 IST" name="TC_006" description="Accept the friend request" finished-at="2024-04-23T14:57:00 IST" depends-on-methods="TC_001" duration-ms="39286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006 -->
+      </class> <!-- com.tests.Accept_the_friend_request -->
+      <class name="com.tests.delete_an_account">
+        <test-method signature="TC_009()[pri:0, instance:com.tests.delete_an_account@65b3f4a4]" started-at="2024-04-23T14:57:55 IST" name="TC_009" description="Delete an account" finished-at="2024-04-23T14:58:03 IST" depends-on-methods="TC_001" duration-ms="7774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_009 -->
+      </class> <!-- com.tests.delete_an_account -->
+      <class name="com.tests.Post_an_Activity_rings">
+        <test-method signature="TC_005()[pri:0, instance:com.tests.Post_an_Activity_rings@55740540]" started-at="2024-04-23T14:56:04 IST" name="TC_005" description="Post an Activity rings" finished-at="2024-04-23T14:56:20 IST" depends-on-methods="TC_001" duration-ms="15771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+      </class> <!-- com.tests.Post_an_Activity_rings -->
+      <class name="com.tests.Validate_fitnessandhealthpage">
+        <test-method signature="TC_002()[pri:0, instance:com.tests.Validate_fitnessandhealthpage@7748410a]" started-at="2024-04-23T14:54:30 IST" name="TC_002" description="Validate fitness and health page" finished-at="2024-04-23T14:55:31 IST" depends-on-methods="TC_001" duration-ms="61419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+      </class> <!-- com.tests.Validate_fitnessandhealthpage -->
+      <class name="com.tests.Create_Challenge">
+        <test-method signature="TC_008()[pri:0, instance:com.tests.Create_Challenge@1018bde2]" started-at="2024-04-23T14:57:28 IST" name="TC_008" description="Create Challenge" finished-at="2024-04-23T14:57:54 IST" depends-on-methods="TC_001" duration-ms="26002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_008 -->
+      </class> <!-- com.tests.Create_Challenge -->
+      <class name="com.tests.collectnoisecoinsformdashboard">
+        <test-method signature="TC_007()[pri:0, instance:com.tests.collectnoisecoinsformdashboard@2f54a33d]" started-at="2024-04-23T14:57:00 IST" name="TC_007" description="Collect noise coins from the dashboard" finished-at="2024-04-23T14:57:27 IST" depends-on-methods="TC_001" duration-ms="27119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007 -->
+      </class> <!-- com.tests.collectnoisecoinsformdashboard -->
+      <class name="com.tests.validate_add_friends_through_common_interest">
+        <test-method signature="TC_004()[pri:0, instance:com.tests.validate_add_friends_through_common_interest@37f1104d]" started-at="2024-04-23T14:55:40 IST" name="TC_004" description="validate add friends through common interest" finished-at="2024-04-23T14:56:04 IST" depends-on-methods="TC_001" duration-ms="23174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+      </class> <!-- com.tests.validate_add_friends_through_common_interest -->
+      <class name="com.tests.validate_add_friends_through_contract">
+        <test-method signature="TC_003()[pri:0, instance:com.tests.validate_add_friends_through_contract@740773a3]" started-at="2024-04-23T14:55:32 IST" name="TC_003" description="validate add friends through contract" finished-at="2024-04-23T14:55:39 IST" depends-on-methods="TC_001" duration-ms="7670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+      </class> <!-- com.tests.validate_add_friends_through_contract -->
     </test> <!-- Run on Mobile -->
   </suite> <!-- Suite -->
 </testng-results>

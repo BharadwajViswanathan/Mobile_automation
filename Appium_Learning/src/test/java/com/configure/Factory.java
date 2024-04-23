@@ -8,7 +8,11 @@ import java.util.Properties;
 import org.openqa.selenium.support.PageFactory;
 
 import com.Driver.Driver;
+import com.pom.Challengespom;
+import com.pom.Friendspom;
 import com.pom.Loginpom;
+import com.pom.dashboardpom;
+import com.pom.shoppom;
 
 
 public class Factory extends Driver {
@@ -49,5 +53,9 @@ public class Factory extends Driver {
 
 	public static void initelements() {
 	PageFactory.initElements(driver, Loginpom.class);
+	PageFactory.initElements(driver, dashboardpom.class);
+	PageFactory.initElements(driver, Challengespom.class);
+	PageFactory.initElements(driver, Friendspom.class);
+	PageFactory.initElements(driver, shoppom.class);
 	}
 }
