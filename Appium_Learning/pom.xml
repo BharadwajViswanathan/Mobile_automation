@@ -1,119 +1,168 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>mobileautomation</groupId>
-  <artifactId>Appium_Learning</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>mobileautomation</groupId>
+	<artifactId>Appium_Learning</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-  <name>maven</name>
-  <url>http://maven.apache.org</url>
+	<name>maven</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.12.1</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-
-
-        <dependency>
-            <groupId>commons-validator</groupId>
-            <artifactId>commons-validator</artifactId>
-            <version>1.4.1</version>
-        </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
-<dependency>
-    <groupId>org.apache.maven</groupId>
-    <artifactId>maven-core</artifactId>
-    <version>3.9.4</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/com.mailosaur/mailosaur-java -->
-<dependency>
-    <groupId>com.mailosaur</groupId>
-    <artifactId>mailosaur-java</artifactId>
-    <version>7.13.1</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
-<dependency>
-    <groupId>com.github.stephenc.monte</groupId>
-    <artifactId>monte-screen-recorder</artifactId>
-    <version>0.7.7.0</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.5.2</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>5.2.3</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
-<dependency>
-    <groupId>net.sourceforge.tess4j</groupId>
-    <artifactId>tess4j</artifactId>
-    <version>5.10.0</version>
-</dependency>
-
-<dependency>
-  <groupId>org.jsoup</groupId>
-  <artifactId>jsoup</artifactId>
-  <version>1.13.1</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>5.2.3</version>
-</dependency>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20231013</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.deque.html.axe-core/selenium -->
+		<dependency>
+			<groupId>com.deque.html.axe-core</groupId>
+			<artifactId>selenium</artifactId>
+			<version>4.7.0</version>
+		</dependency>
+				<!-- https://mvnrepository.com/artifact/com.deque/axe-selenium -->
+		<dependency>
+			<groupId>com.deque</groupId>
+			<artifactId>axe-selenium</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.12.1</version>
+		</dependency>
 
 
-<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.11.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
-<dependency>
-    <groupId>io.appium</groupId>
-    <artifactId>java-client</artifactId>
-    <version>8.5.1</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
 
 
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.1.0</version>
-</dependency>
-  </dependencies>
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-core</artifactId>
+			<version>3.9.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.mailosaur/mailosaur-java -->
+		<dependency>
+			<groupId>com.mailosaur</groupId>
+			<artifactId>mailosaur-java</artifactId>
+			<version>7.13.1</version>
+		</dependency>
+
+
+		<!--
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.5.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+		<dependency>
+			<groupId>net.sourceforge.tess4j</groupId>
+			<artifactId>tess4j</artifactId>
+			<version>5.10.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.13.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/com.deque.android/axe-devtools-android-data -->
+		<dependency>
+			<groupId>com.deque.android</groupId>
+			<artifactId>axe-devtools-android-data</artifactId>
+			<version>5.4.0</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/com.deque.android/axe-devtools-android-core -->
+		<dependency>
+			<groupId>com.deque.android</groupId>
+			<artifactId>axe-devtools-android-core</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/com.deque.android/axe-devtools-android-results -->
+		<dependency>
+			<groupId>com.deque.android</groupId>
+			<artifactId>axe-devtools-android-results</artifactId>
+			<version>5.4.0</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/com.deque.android/axe-devtools-android-results -->
+		<dependency>
+			<groupId>com.deque.android</groupId>
+			<artifactId>axe-devtools-android-results</artifactId>
+			<version>5.4.0</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>8.5.1</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.0</version>
+		</dependency>
+	</dependencies>
 </project>

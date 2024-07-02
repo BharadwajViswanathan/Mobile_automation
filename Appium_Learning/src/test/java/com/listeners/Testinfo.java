@@ -9,10 +9,7 @@ import org.testng.ITestResult;
 
 import com.ExtentReport.ExtentReport;
 import com.ExtentReport.Extentlogger;
-import com.ExtentReport.Screenrecording;
 import com.tests.BaseClass;
-
-import io.appium.java_client.screenrecording.CanRecordScreen;
 
 public class Testinfo extends BaseClass implements ITestListener,ISuiteListener{
 	

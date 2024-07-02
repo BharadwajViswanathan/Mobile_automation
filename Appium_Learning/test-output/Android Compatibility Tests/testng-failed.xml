@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Android Compatibility Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Android Compatibility Test-2(failed)">
+    <parameter name="platformVersion" value="13"/>
+    <parameter name="appiumServer" value="http://10.100.102.98:4723/"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Pixel 4a"/>
+    <classes>
+      <class name="wordreader.ParallelTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- wordreader.ParallelTesting -->
+    </classes>
+  </test> <!-- Android Compatibility Test-2(failed) -->
+</suite> <!-- Failed suite [Android Compatibility Tests] -->

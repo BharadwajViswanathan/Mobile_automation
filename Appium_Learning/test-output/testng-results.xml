@@ -1,73 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-23T14:50:53 IST" name="Suite" finished-at="2024-04-23T14:58:03 IST" duration-ms="430141">
+  <suite started-at="2024-06-11T15:37:17 IST" name="Default suite" finished-at="2024-06-11T15:37:31 IST" duration-ms="14209">
     <groups>
     </groups>
-    <test started-at="2024-04-23T14:50:53 IST" name="Run on Mobile" finished-at="2024-04-23T14:58:03 IST" duration-ms="430141">
-      <class name="com.tests.Login_into_application">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.tests.Login_into_application@fa36558]" started-at="2024-04-23T14:50:38 IST" name="LaunchBrowser" finished-at="2024-04-23T14:50:53 IST" duration-ms="15073" status="PASS">
+    <test started-at="2024-06-11T15:37:17 IST" name="Default test" finished-at="2024-06-11T15:37:31 IST" duration-ms="14209">
+      <class name="andoird.com.Learning.axeautomation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:andoird.com.Learning.axeautomation@757acd7b]" started-at="2024-06-11T15:37:17 IST" name="setup" finished-at="2024-06-11T15:37:30 IST" duration-ms="13280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="TC_001()[pri:0, instance:com.tests.Login_into_application@fa36558]" started-at="2024-04-23T14:50:53 IST" name="TC_001" description="Login into application" finished-at="2024-04-23T14:54:29 IST" duration-ms="215669" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:andoird.com.Learning.axeautomation@757acd7b]" started-at="2024-06-11T15:37:30 IST" name="test" finished-at="2024-06-11T15:37:31 IST" duration-ms="838" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[{"value":{"error":"unknown method","message":"Method is not implemented","stacktrace":"NotImplementedError: Method is not implemented\n    at AndroidUiautomator2Driver.execute (C:\\Users\\bharadwaj.viswanatha\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\execute.js:13:11)\n    at commandExecutor (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\driver.ts:106:18)\n    at C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:171:12\n    at AsyncLock._promiseTry (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:306:31)\n    at exec (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:170:9)\n    at AsyncLock.acquire (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:189:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\driver.ts:122:39)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at defaultBehavior (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\appium.js:1109:14)\n    at AppiumDriver.executeWrappedCommand (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\appium.js:1215:16)\n    at AppiumDriver.executeCommand (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\appium.js:1121:17)\n    at asyncHandler (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\protocol\\protocol.js:393:19)"}}
+Command duration or timeout: 97 milliseconds
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [854f5906-dd5e-4de0-a582-28cfcc9fdf35, executeScript {script=axe:scan, args=[{apiKey=906ac853-87bc-4a94-8ac4-9b20f6acb2ed}]}]
+Capabilities {appium:appActivity: com.instagram.mainactivity...., appium:appPackage: com.instagram.android, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.instagram.mainactivity...., appPackage: com.instagram.android, automationName: UIAutomator2, deviceName: Oneplus 6, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OnePlus, appium:deviceModel: ONEPLUS A6000, appium:deviceName: 410f3d53, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: 410f3d53, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 11, appium:statBarHeight: 80, appium:takesScreenshot: true, appium:viewportRect: {height: 2200, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 854f5906-dd5e-4de0-a582-28cfcc9fdf35]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: {"value":{"error":"unknown method","message":"Method is not implemented","stacktrace":"NotImplementedError: Method is not implemented\n    at AndroidUiautomator2Driver.execute (C:\\Users\\bharadwaj.viswanatha\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\execute.js:13:11)\n    at commandExecutor (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\driver.ts:106:18)\n    at C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:171:12\n    at AsyncLock._promiseTry (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:306:31)\n    at exec (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:170:9)\n    at AsyncLock.acquire (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:189:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\driver.ts:122:39)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at defaultBehavior (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\appium.js:1109:14)\n    at AppiumDriver.executeWrappedCommand (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\appium.js:1215:16)\n    at AppiumDriver.executeCommand (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\appium.js:1121:17)\n    at asyncHandler (C:\\Users\\bharadwaj.viswanatha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\protocol\\protocol.js:393:19)"}}
+Command duration or timeout: 97 milliseconds
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [854f5906-dd5e-4de0-a582-28cfcc9fdf35, executeScript {script=axe:scan, args=[{apiKey=906ac853-87bc-4a94-8ac4-9b20f6acb2ed}]}]
+Capabilities {appium:appActivity: com.instagram.mainactivity...., appium:appPackage: com.instagram.android, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.instagram.mainactivity...., appPackage: com.instagram.android, automationName: UIAutomator2, deviceName: Oneplus 6, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OnePlus, appium:deviceModel: ONEPLUS A6000, appium:deviceName: 410f3d53, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: 410f3d53, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 11, appium:statBarHeight: 80, appium:takesScreenshot: true, appium:viewportRect: {height: 2200, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 854f5906-dd5e-4de0-a582-28cfcc9fdf35
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:220)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:655)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:467)
+at andoird.com.Learning.axeautomation.test(axeautomation.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login_into_application@fa36558]" started-at="2024-04-23T14:58:03 IST" name="CloseBrowser" finished-at="2024-04-23T14:58:04 IST" duration-ms="441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.tests.Login_into_application -->
-      <class name="com.tests.Accept_the_friend_request">
-        <test-method signature="TC_006()[pri:0, instance:com.tests.Accept_the_friend_request@60015ef5]" started-at="2024-04-23T14:56:20 IST" name="TC_006" description="Accept the friend request" finished-at="2024-04-23T14:57:00 IST" depends-on-methods="TC_001" duration-ms="39286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_006 -->
-      </class> <!-- com.tests.Accept_the_friend_request -->
-      <class name="com.tests.delete_an_account">
-        <test-method signature="TC_009()[pri:0, instance:com.tests.delete_an_account@65b3f4a4]" started-at="2024-04-23T14:57:55 IST" name="TC_009" description="Delete an account" finished-at="2024-04-23T14:58:03 IST" depends-on-methods="TC_001" duration-ms="7774" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_009 -->
-      </class> <!-- com.tests.delete_an_account -->
-      <class name="com.tests.Post_an_Activity_rings">
-        <test-method signature="TC_005()[pri:0, instance:com.tests.Post_an_Activity_rings@55740540]" started-at="2024-04-23T14:56:04 IST" name="TC_005" description="Post an Activity rings" finished-at="2024-04-23T14:56:20 IST" depends-on-methods="TC_001" duration-ms="15771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_005 -->
-      </class> <!-- com.tests.Post_an_Activity_rings -->
-      <class name="com.tests.Validate_fitnessandhealthpage">
-        <test-method signature="TC_002()[pri:0, instance:com.tests.Validate_fitnessandhealthpage@7748410a]" started-at="2024-04-23T14:54:30 IST" name="TC_002" description="Validate fitness and health page" finished-at="2024-04-23T14:55:31 IST" depends-on-methods="TC_001" duration-ms="61419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_002 -->
-      </class> <!-- com.tests.Validate_fitnessandhealthpage -->
-      <class name="com.tests.Create_Challenge">
-        <test-method signature="TC_008()[pri:0, instance:com.tests.Create_Challenge@1018bde2]" started-at="2024-04-23T14:57:28 IST" name="TC_008" description="Create Challenge" finished-at="2024-04-23T14:57:54 IST" depends-on-methods="TC_001" duration-ms="26002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_008 -->
-      </class> <!-- com.tests.Create_Challenge -->
-      <class name="com.tests.collectnoisecoinsformdashboard">
-        <test-method signature="TC_007()[pri:0, instance:com.tests.collectnoisecoinsformdashboard@2f54a33d]" started-at="2024-04-23T14:57:00 IST" name="TC_007" description="Collect noise coins from the dashboard" finished-at="2024-04-23T14:57:27 IST" depends-on-methods="TC_001" duration-ms="27119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_007 -->
-      </class> <!-- com.tests.collectnoisecoinsformdashboard -->
-      <class name="com.tests.validate_add_friends_through_common_interest">
-        <test-method signature="TC_004()[pri:0, instance:com.tests.validate_add_friends_through_common_interest@37f1104d]" started-at="2024-04-23T14:55:40 IST" name="TC_004" description="validate add friends through common interest" finished-at="2024-04-23T14:56:04 IST" depends-on-methods="TC_001" duration-ms="23174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_004 -->
-      </class> <!-- com.tests.validate_add_friends_through_common_interest -->
-      <class name="com.tests.validate_add_friends_through_contract">
-        <test-method signature="TC_003()[pri:0, instance:com.tests.validate_add_friends_through_contract@740773a3]" started-at="2024-04-23T14:55:32 IST" name="TC_003" description="validate add friends through contract" finished-at="2024-04-23T14:55:39 IST" depends-on-methods="TC_001" duration-ms="7670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_003 -->
-      </class> <!-- com.tests.validate_add_friends_through_contract -->
-    </test> <!-- Run on Mobile -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- andoird.com.Learning.axeautomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

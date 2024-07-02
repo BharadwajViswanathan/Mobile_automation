@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="andoird.com.Learning.appiumserverstartandstop">
+      <class name="andoird.com.Learning.axeautomation">
         <methods>
-          <include name="demo"/>
+          <include name="setup"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- andoird.com.Learning.appiumserverstartandstop -->
+      </class> <!-- andoird.com.Learning.axeautomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

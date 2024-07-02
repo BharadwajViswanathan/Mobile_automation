@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Android Compatibility Tests" parallel="tests">
+	<test name="Android Compatibility Test-1">
+		<parameter name="deviceName" value="OnePlus 6" />
+		<parameter name="platformVersion" value="10" />
+		<parameter name="appiumServer" value="http://10.100.102.98:4723/" />
+		<parameter name="udid" value="410f3d53"/>
+		<classes>
+		     <class name="wordreader.ParallelTesting"/>
+		</classes>
+	</test>
+	<test name="Android Compatibility Test-2">
+		<parameter name="deviceName" value="Pixel 4a" />
+		<parameter name="platformVersion" value="13" />
+		<parameter name="appiumServer" value="http://10.100.102.98:4723/" />
+		<parameter name="udid" value="emulator-5554" />
+		<classes>
+	 <class name="wordreader.ParallelTesting"/>
+		
+		</classes>
+	</test>
+</suite>

@@ -33,13 +33,13 @@ public class Driver {
 		Softassert=new SoftAssert();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,prop.getProperty("Platformname"));
-		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Uiautomator2");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 		cap.setCapability("appPackage",prop.getProperty("appPackage"));
 		cap.setCapability("appActivity",prop.getProperty("appActivity"));
 		cap.setCapability("autoGrantPermissions",prop.getProperty("autoGrantPermissions"));
-		URL url = new URL("http://10.100.102.98:4723/");
+		URL url = new URL("http://192.168.29.42:4723/");
 		driver = new AndroidDriver(url, cap);
-		Deviceinfo();
+//		Deviceinfo();
 		BaseClass.implictwait(10);
 		Factory.initelements();
 		

@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.listeners.Testinfo"/>
-  </listeners>
-  <test thread-count="5" name="Run on Mobile(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.Login_into_application">
+      <class name="andoird.com.Learning.axeautomation">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="LaunchBrowser"/>
-          <include name="TC_001"/>
+          <include name="setup"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.tests.Login_into_application -->
-      <class name="com.tests.delete_an_account">
-        <methods>
-          <include name="CloseBrowser"/>
-          <include name="TC_009"/>
-          <include name="LaunchBrowser"/>
-        </methods>
-      </class> <!-- com.tests.delete_an_account -->
-      <class name="com.tests.Create_Challenge">
-        <methods>
-          <include name="CloseBrowser"/>
-          <include name="TC_008"/>
-          <include name="LaunchBrowser"/>
-        </methods>
-      </class> <!-- com.tests.Create_Challenge -->
+      </class> <!-- andoird.com.Learning.axeautomation -->
     </classes>
-  </test> <!-- Run on Mobile(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

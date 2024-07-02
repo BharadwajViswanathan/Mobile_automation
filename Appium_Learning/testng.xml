@@ -16,6 +16,7 @@
        <class name="com.tests.collectnoisecoinsformdashboard"/>
       <class name="com.tests.Create_Challenge"/>
       <class name="com.tests.delete_an_account"/>
+
 </classes>
 </test>
 </suite>
